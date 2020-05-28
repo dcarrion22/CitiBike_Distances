@@ -14,7 +14,6 @@ library(devtools)
 #install_github("rodazuero/gmapsdistance")
 library(gmapsdistance)
 
-set.api.key("AIzaSyAoH8SwrWY1dPro21KnWz52Sj1HjZEhe_Q")
 set.api.key("API KEY")
 
 UniqueStations1$LatLong = paste(UniqueStations1$end.station.latitude, UniqueStations1$end.station.longitude, sep="+")
